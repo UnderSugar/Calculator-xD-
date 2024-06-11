@@ -18,25 +18,34 @@
                  5. сделать отображение цифр при нажатие на кнопки
                  6. реализовать вычисление результата
                  7. сделать вывод в то же окно -->
-            <input type="text" class="inputVal" id="myinput">
+            <input type="text" class="inputVal" id="myinput" value="0">
             <div class="inputButtons">
-                <button onclick="display(this)" id="one">1</button>
-                <button onclick="display(this)" id="two">2</button>
-                <button onclick="display(this)" id="three">3</button>
-                <button onclick="display(this)" id="four">4</button>
-                <button onclick="display(this)" id="five">5</button>
-                <button onclick="display(this)" id="six">6</button>
-                <button onclick="display(this)" id="seven">7</button>
-                <button onclick="display(this)" id="eight">8</button>
-                <button onclick="display(this)" id="nine">9</button>
-                <button onclick="display(this)" id="zero">0</button>
-                <button onclick="display(this)" id="plus">+</button>
-                <button onclick="display(this)" id="minus">-</button>
-                <button onclick="display(this)" id="multiplicate">*</button>
-                <button onclick="display(this)"id="division">/</button>
-                <button class="equal" onclick="Calculate()">=</button>
-                <button onclick="display(this)"id="clear">C</button>
-            </div>
+                    <button class="btn"onclick="display(this)"id="clear">C</button>
+                <div class="row">
+                    <button class="btn"onclick="display(this)" id="one">1</button>
+                    <button class="btn"onclick="display(this)" id="two">2</button>
+                    <button class="btn"onclick="display(this)" id="three">3</button>
+                    <button class="btn"onclick="display(this)" id="plus">+</button>
+                </div>
+                <div class="row">
+                    <button class="btn"onclick="display(this)" id="four">4</button>
+                    <button class="btn"onclick="display(this)" id="five">5</button>
+                    <button class="btn"onclick="display(this)" id="six">6</button>
+                    <button class="btn"onclick="display(this)" id="minus">-</button>
+                </div>
+                <div class="row">
+                    <button class="btn"onclick="display(this)" id="seven">7</button>
+                    <button class="btn"onclick="display(this)" id="eight">8</button>
+                    <button class="btn" onclick="display(this)" id="nine">9</button>
+                    <button class="btn"onclick="display(this)" id="multiplicate">*</button>
+                </div>
+                <div class="row">
+                    <button class="btn"onclick="display(this)" id="zero">0</button>
+                    <button class="btn"class="equal" onclick="Calculate()">=</button>
+                    <button class="btn"onclick="display(this)"id="division">/</button>
+                </div>
+                
+          </div>
         </div>
    </div>
 

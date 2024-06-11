@@ -1,41 +1,58 @@
-*{
-    margin: 0;
-}
-
-.body{
-    width: 100%;
-}
 .inputPlace{
     display: flex;
 }
 p{
     text-align: center;
-    margin-top: 30px;
     font-size: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 .main{
+    margin: 50px auto;
+    width: 500px;
+    background-color: #CCCCCC; 
+    border-color: aliceblue;
     justify-content: center;
+    border-radius: 5px;
     display: flex;
-    width: 100%;
+    box-shadow: 4px 4px 4px gray;
 }
 .inputButtons{
-    width: 400px;
-    flex-direction: row;
-    margin: 20px;
+    margin: 74px;
 }
-.inputButtons button {
-    height: 60px;
-    width: 60px;
+ #clear{
+    width: 300px;
+ }
+ #zero{
+    width: 150px;
+ }
+.btn {
+    width: 75px;
+    height: 75px;
+    background-color: #669999;
+    text-align: center;
+    font-size: 30px;
+}
+.btn:hover{
+    filter: brightness(130%);
 }
 .equal {
     height: 50px;
     width: 50px;
 }
 .inputVal { 
+    text-align: right;
+    font-size: 70px;
+    line-height: 20px;
     padding-top: 40px;
-    margin: 20px 20px 20px ;
-    width: 374px;
+    margin: 74px 20px 74px ;
+    width: 400px;
     height: 30px;
     display: block;
+    padding-bottom: 25px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
